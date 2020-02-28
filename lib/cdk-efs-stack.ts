@@ -2,7 +2,6 @@ import * as cdk from '@aws-cdk/core';
 import * as efs from '@aws-cdk/aws-efs';
 import * as ec2 from '@aws-cdk/aws-ec2';
 import { SecurityGroup } from '@aws-cdk/aws-ec2';
-import { EOF } from 'dns';
 
 export class CdkEfsStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
