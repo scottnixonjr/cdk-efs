@@ -24,6 +24,8 @@
     "@aws-cdk/aws-ec2": "^1.26.0",
     "@aws-cdk/aws-efs": "^1.26.0",
     "@aws-cdk/core": "1.26.0",
+    "acorn": "^5.7.4",
+    "minimist": "^1.2.3",
     "source-map-support": "^0.5.16"
   }
 }
