@@ -34,7 +34,6 @@ export class CdkEfsStack extends cdk.Stack {
     export efs_directory=/mnt/efs
     sudo mkdir -p \${efs_directory}
     sudo sed -i "$ a \${file_system_id_01}:/ \${efs_directory} efs tls,_netdev" /etc/fstab
-    # sudo mount -t efs -o tls \${file_system_id_01}:/ efs
     sudo mount -a -t efs defaults
     `;
 
